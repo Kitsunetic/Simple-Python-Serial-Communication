@@ -20,7 +20,7 @@ python3 serial_reader.py -d /dev/ttyS1 -b 38400
 python3 serial_reader.py -d /dev/ttyS1 # default baud rate is set to 38400
 ```
 
-### Serial Reader
+### Serial Writer
 
 ```bash
 python3 serial_writer.py --device /dev/ttyS1 --baud 38400 -c # canonical mode
